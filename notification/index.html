@@ -16,7 +16,7 @@
   <body>
     <div class="notification-box">
       <!-- delete icon -->
-      <button class="delete-icon">
+      <button aria-label="delete" class="delete-icon">
         <i class="fa-solid fa-xmark"></i>
       </button>
 
@@ -24,10 +24,11 @@
       <div class="notification-content">
         <h2>Show notifications for</h2>
         <div class="link">
-          <div class="notification-icon">
-            <i class="fa-solid fa-bell"></i>
-          </div>
-          <span><a href="#">www.website.com</a></span>
+        <button aria-label="notification" class="notification-icon">
+          <i class="fa-solid fa-bell"></i>
+        </button>
+        <span><a href="#">www.website.com</a></span>
+
         </div>
       </div>
 
