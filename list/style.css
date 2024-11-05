@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body {
+body { 
   margin: auto;
   box-sizing: border-box;
   --primary-color: #3b3b71;
   --secondary-color: #8a8aaa;
   --font-family-1: "Poppins";
   --font-family-2: "Merriweather";
-  background:linear-gradient(150deg, #eef5ff, #f0eeff);
+  background: linear-gradient(150deg, #eef5ff, #f0eeff);
 }
+
 .container {
   width: 400px;
   padding: 48px;
@@ -21,11 +22,13 @@ body {
   border-radius: 54px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
+
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 h2 {
   font-size: 36px;
   margin: 0;
@@ -33,16 +36,19 @@ h2 {
   font-family: var(--font-family-2);
   font-weight: bolder;
 }
+
 p {
   margin: 0;
   font-size: 16px;
   font-family: var(--font-family-1);
   color: var(--secondary-color);
 }
+
 p a {
   color: var(--secondary-color);
   text-decoration: underline;
 }
+
 .title {
   display: flex;
   flex-direction: column;
@@ -55,23 +61,32 @@ p a {
   flex-direction: column;
   gap: 25px 0px;
 }
+
 .list-item {
   align-items: center;
   display: flex;
   gap: 0px 8px;
 }
+
 .list-item h4 {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
   font-family: var(--font-family-1);
 }
+
 .unchecked-list .list-item h4 {
   color: var(--primary-color);
 }
+
 .checked-list .list-item h4 {
   color: var(--secondary-color);
 }
+
+ul {
+  list-style-type: none;
+}
+
 .checked-content {
   display: flex;
   flex-direction: column;
@@ -85,10 +100,12 @@ h3 {
   margin: 0;
   font-weight: 500;
 }
-.btn{
-    display: flex;
-    justify-content: flex-end;
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
 }
+
 .plus-btn {
   width: 95px;
   height: 63px;
