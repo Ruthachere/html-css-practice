@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Component UI</title>
+  </head>
+  <body>
+    <section>
+      <div class="header-content">
+        <div class="title">
+          <img src="Ellipse 1.png" alt="" class="profile-image" />
+          <div class="profile-name">
+            <span>Tammy Park</span>
+            <p>@tamp</p>
+          </div>
+        </div>
+
+        <button class="profile-btn">
+          <span>+ Add profile</span>
+        </button>
+
+        <div class="list">
+          <ul>
+            <li><i class="fa-solid fa-pencil"></i> Edit profiles</li>
+            <li><i class="fa-solid fa-gear"></i> App settings</li>
+            <li><i class="fa-solid fa-user"></i> Account</li>
+            <li><i class="fa-regular fa-circle-question"></i> Help</li>
+            <li><i class="fa-solid fa-up-right-from-square"></i> Log out</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="profile-container">
+        <h3>Add profile</h3>
+
+        <div class="profile-image">
+<div class="image-one">
+      <i class="fa-regular fa-image"></i>     
+</div>
+          <button  aria-label="upload" class="upload-btn"> <i class="fa-solid fa-cloud-arrow-up"></i>Upload image</button>
+        </div>
+
+        <form action="#">
+          <input type="text" placeholder="Profile name" name="profile name" class="profile-name-input">
+        </form>
+
+        <div class="profile-content">
+          <span>Kid's profile</span>
+          <p>A profile with curated content and features, and a simplified user interface</p>
+        </div>
+
+        <button aria-label="save" class="save-btn">Save</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="notification-box">
+        <div class="notification-header">
+          <button aria-label="delete" type="submit" class="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="notification-content">
+          <h3>Sharing with family?</h3>
+          <p>Add personal profiles for adults, teens or kids.</p>
+        </div>
+        </div>
+
+        <button aria-label="add profile" class="add-profile-btn">
+          Add profile
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
