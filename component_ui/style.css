@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   --primary-color: #222533;
   --secondary-color: #e5e5e5;
+  background-color: #1b1d28;
 }
 
 .header-content {
